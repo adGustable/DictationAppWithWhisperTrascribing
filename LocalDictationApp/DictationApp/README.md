@@ -1,4 +1,4 @@
-# 🎙 DictationApp — WPF C# Dictation System
+# 🎙 DictationApp — WPF C# Dictation System With Profile System
 
 A professional voice dictation application with Speaker and Reviewer roles, Whisper AI transcription, and Word document export.
 
@@ -48,7 +48,7 @@ DictationApp/
 
 - **Visual Studio 2022** (with .NET Desktop Workload) or **Rider**
 - **.NET 8 SDK** — https://dotnet.microsoft.com/download
-- **OpenAI API Key** — https://platform.openai.com (for Whisper transcription)
+- **Whisper AI Download** — https://github.com/ggml-org/whisper.cpp
 - A working **microphone** for recording
 
 ---
@@ -66,16 +66,15 @@ Visual Studio restores automatically. Or in Terminal:
 dotnet restore
 ```
 
-### 3. Build & Run
+### 3. Download Whisper Local AI
+```
+https://github.com/ggml-org/whisper.cpp
+```
+
+### 4. Build & Run
 ```
 F5  or  Ctrl+F5
 ```
-
-### 4. Configure Whisper API Key
-1. Sign in with a **Reviewer** account
-2. Click **⚙ Settings** in the top bar
-3. Paste your OpenAI API key (`sk-...`)
-4. Click **Save Settings**
 
 ---
 
@@ -90,7 +89,7 @@ F5  or  Ctrl+F5
 
 ---
 
-## Whisper API Integration
+## Local Whisper Integration
 
 The app uses **Local Download of Open AI ** (`whisper-1` model):
 
