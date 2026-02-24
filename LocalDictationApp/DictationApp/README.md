@@ -11,7 +11,7 @@ A professional voice dictation application with Speaker and Reviewer roles, Whis
 | **Multi-Account System** | Speaker and Reviewer roles with login/registration |
 | **Audio Recording** | High-quality 44.1kHz WAV recording via NAudio |
 | **Live Waveform** | Real-time volume visualiser while recording |
-| **Whisper Transcription** | OpenAI Whisper API integration (state-of-the-art accuracy) |
+| **Whisper Transcription** | Local Transcription with Whisper AI |
 | **Transcription Editor** | Full rich text editor — reviewers can correct errors |
 | **Word Export** | Professional `.docx` export with metadata table |
 | **File Queue** | Reviewers see all files sent from speakers |
@@ -92,11 +92,8 @@ F5  or  Ctrl+F5
 
 ## Whisper API Integration
 
-The app uses **OpenAI's Whisper API** (`whisper-1` model):
+The app uses **Local Download of Open AI ** (`whisper-1` model):
 
-```
-POST https://api.openai.com/v1/audio/transcriptions
-```
 
 ### How it works
 1. Speaker records audio → saved as `.wav` in `%AppData%\DictationApp\Audio\`
@@ -111,7 +108,7 @@ POST https://api.openai.com/v1/audio/transcriptions
 WAV (default), MP3, MP4, M4A, MPEG, WEBM
 
 ### Pricing
-~$0.006 per minute of audio. A 10-minute recording ≈ $0.06.
+~No Pricing as Local Download
 
 ---
 
@@ -165,4 +162,4 @@ All data is stored locally in JSON files:
 - **Add Azure Speech / Google STT**: Implement an `ISpeechService` interface alongside `WhisperService`
 - **Email notifications**: Add `System.Net.Mail` to notify reviewers when files are sent
 - **Cloud sync**: Replace `DataService` JSON storage with a SQLite or REST API backend
-- **Audio compression**: Use NAudio to convert WAV → MP3 before upload to reduce API costs
+- **Audio compression**: Use NAudio to convert WAV → MP3 before upload
