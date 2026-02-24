@@ -66,31 +66,24 @@ Visual Studio restores automatically. Or in Terminal:
 dotnet restore
 ```
 
-### 3. Build & Run
+### 3. Download Whisper Local AI
+```
+https://github.com/ggml-org/whisper.cpp
+```
+
+### 4. Build & Run
 ```
 F5  or  Ctrl+F5
 ```
 
-
 ---
 
-## Default Accounts
-
-| Username | Password | Role |
-|----------|----------|------|
-| `speaker1` | `password` | Speaker (Dr. Sarah Mitchell) |
-| `speaker2` | `password` | Speaker (Dr. James Carter) |
-| `reviewer1` | `password` | Reviewer (Emma Thompson) |
-| `reviewer2` | `password` | Reviewer (Oliver Bennett) |
-
----
-
-## Whisper API Integration
+## Local Whisper Integration
 
 The app uses **Local OpenAI's Whisper ** (`whisper-1` model):
 
 ```
-[POST [https://github.com/ggml-org/whisper.cpp]
+[https://github.com/ggml-org/whisper.cpp]
 ```
 
 ### How it works
@@ -141,18 +134,19 @@ SPEAKER                         REVIEWER
 
 ## Data Storage
 
-All data is stored locally in JSON files:
+### 1.Data is stored locally in JSON files:
 
 ```
 %AppData%\DictationApp\
-├── users.json          # User accounts (passwords SHA-256 hashed)
 ├── audiofiles.json     # Recording metadata & transcriptions
-├── settings.ini        # API key & preferences
+├── settings.ini        # File locations for speaker and reviewer
 └── Audio\              # WAV recordings
     ├── Recording_20240101_120000.wav
     └── ...
 ```
+### 2. Data can be saved to a Share File / OneDrive system for collaborative work:
 
+- **Directions in app**
 ---
 
 ## Extending the App
