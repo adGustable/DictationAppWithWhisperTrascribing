@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\Gus\\Desktop\\DictationApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9497982A-7EBA-3515-9082-46EE5090D5AE}|DictationApp.csproj|d:\\users\\gus\\desktop\\dictationapp\\views\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9497982A-7EBA-3515-9082-46EE5090D5AE}|DictationApp.csproj|solutionrelative:views\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9497982A-7EBA-3515-9082-46EE5090D5AE}|DictationApp.csproj|d:\\users\\gus\\desktop\\dictationapp\\views\\speakerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9497982A-7EBA-3515-9082-46EE5090D5AE}|DictationApp.csproj|solutionrelative:views\\speakerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9497982A-7EBA-3515-9082-46EE5090D5AE}|DictationApp.csproj|d:\\users\\gus\\desktop\\dictationapp\\views\\reviewerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9497982A-7EBA-3515-9082-46EE5090D5AE}|DictationApp.csproj|solutionrelative:views\\reviewerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9497982A-7EBA-3515-9082-46EE5090D5AE}|DictationApp.csproj|d:\\users\\gus\\desktop\\dictationapp\\services\\localwhisperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9497982A-7EBA-3515-9082-46EE5090D5AE}|DictationApp.csproj|solutionrelative:services\\localwhisperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9497982A-7EBA-3515-9082-46EE5090D5AE}|DictationApp.csproj|d:\\users\\gus\\desktop\\dictationapp\\models\\audiofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9497982A-7EBA-3515-9082-46EE5090D5AE}|DictationApp.csproj|solutionrelative:models\\audiofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9497982A-7EBA-3515-9082-46EE5090D5AE}|DictationApp.csproj|d:\\users\\gus\\desktop\\dictationapp\\views\\reviewerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9497982A-7EBA-3515-9082-46EE5090D5AE}|DictationApp.csproj|solutionrelative:views\\reviewerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeWindow.xaml",
+              "DocumentMoniker": "D:\\Users\\Gus\\Desktop\\DictationApp\\Views\\HomeWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\HomeWindow.xaml",
+              "ToolTip": "D:\\Users\\Gus\\Desktop\\DictationApp\\Views\\HomeWindow.xaml",
+              "RelativeToolTip": "Views\\HomeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-24T08:28:16.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AudioFile.cs",
+              "DocumentMoniker": "D:\\Users\\Gus\\Desktop\\DictationApp\\Models\\AudioFile.cs",
+              "RelativeDocumentMoniker": "Models\\AudioFile.cs",
+              "ToolTip": "D:\\Users\\Gus\\Desktop\\DictationApp\\Models\\AudioFile.cs",
+              "RelativeToolTip": "Models\\AudioFile.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T08:06:37.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocalWhisperService.cs",
+              "DocumentMoniker": "D:\\Users\\Gus\\Desktop\\DictationApp\\Services\\LocalWhisperService.cs",
+              "RelativeDocumentMoniker": "Services\\LocalWhisperService.cs",
+              "ToolTip": "D:\\Users\\Gus\\Desktop\\DictationApp\\Services\\LocalWhisperService.cs",
+              "RelativeToolTip": "Services\\LocalWhisperService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T08:01:28.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReviewerWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Users\\Gus\\Desktop\\DictationApp\\Views\\ReviewerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ReviewerWindow.xaml.cs",
+              "ToolTip": "D:\\Users\\Gus\\Desktop\\DictationApp\\Views\\ReviewerWindow.xaml.cs",
+              "RelativeToolTip": "Views\\ReviewerWindow.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswD8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T08:01:05.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpeakerWindow.xaml",
+              "DocumentMoniker": "D:\\Users\\Gus\\Desktop\\DictationApp\\Views\\SpeakerWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\SpeakerWindow.xaml",
+              "ToolTip": "D:\\Users\\Gus\\Desktop\\DictationApp\\Views\\SpeakerWindow.xaml",
+              "RelativeToolTip": "Views\\SpeakerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-24T07:54:23.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReviewerWindow.xaml",
+              "DocumentMoniker": "D:\\Users\\Gus\\Desktop\\DictationApp\\Views\\ReviewerWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\ReviewerWindow.xaml",
+              "ToolTip": "D:\\Users\\Gus\\Desktop\\DictationApp\\Views\\ReviewerWindow.xaml",
+              "RelativeToolTip": "Views\\ReviewerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-24T03:53:43.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

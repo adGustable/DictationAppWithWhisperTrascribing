@@ -1,0 +1,108 @@
+<Window x:Class="DictationApp.Views.HomeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DictationApp"
+        Height="520" Width="520"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="{StaticResource BackgroundBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel VerticalAlignment="Center" Margin="48,0">
+
+            <!-- Branding -->
+            <Border Width="72" Height="72" CornerRadius="18"
+                    Background="{StaticResource PrimaryBrush}"
+                    HorizontalAlignment="Center" Margin="0,0,0,18">
+                <TextBlock Text="🎙" FontSize="36"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </Border>
+
+            <TextBlock Text="DictationApp" FontSize="30" FontWeight="Bold"
+                       FontFamily="Segoe UI" HorizontalAlignment="Center"
+                       Foreground="{StaticResource TextPrimaryBrush}"/>
+            <TextBlock Text="Professional Voice Dictation via OneDrive"
+                       FontSize="13" FontFamily="Segoe UI"
+                       Foreground="{StaticResource TextSecondaryBrush}"
+                       HorizontalAlignment="Center" Margin="0,6,0,40"/>
+
+            <!-- Role Buttons -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Speaker Button -->
+                <Button Grid.Column="0" Click="Speaker_Click" Cursor="Hand"
+                        BorderThickness="0" Background="Transparent" Padding="0">
+                    <Border CornerRadius="12" Padding="20,24"
+                            x:Name="SpeakerCard" Background="White"
+                            BorderBrush="{StaticResource BorderBrush}" BorderThickness="1.5">
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="12" ShadowDepth="2" Opacity="0.08" Direction="270"/>
+                        </Border.Effect>
+                        <StackPanel>
+                            <Border Width="52" Height="52" CornerRadius="26"
+                                    Background="#FEE8E7"
+                                    HorizontalAlignment="Center" Margin="0,0,0,14">
+                                <TextBlock Text="🎙" FontSize="26"
+                                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <TextBlock Text="Speaker" FontSize="18" FontWeight="Bold"
+                                       FontFamily="Segoe UI" HorizontalAlignment="Center"
+                                       Foreground="{StaticResource TextPrimaryBrush}"/>
+                            <TextBlock TextWrapping="Wrap" TextAlignment="Center"
+                                       FontSize="12" FontFamily="Segoe UI"
+                                       Foreground="{StaticResource TextSecondaryBrush}"
+                                       Margin="0,6,0,0"
+                                       Text="Record audio files and send them to a shared OneDrive folder for review."/>
+                        </StackPanel>
+                    </Border>
+                </Button>
+
+                <!-- Reviewer Button -->
+                <Button Grid.Column="2" Click="Reviewer_Click" Cursor="Hand"
+                        BorderThickness="0" Background="Transparent" Padding="0">
+                    <Border CornerRadius="12" Padding="20,24"
+                            x:Name="ReviewerCard" Background="White"
+                            BorderBrush="{StaticResource BorderBrush}" BorderThickness="1.5">
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="12" ShadowDepth="2" Opacity="0.08" Direction="270"/>
+                        </Border.Effect>
+                        <StackPanel>
+                            <Border Width="52" Height="52" CornerRadius="26"
+                                    Background="#E6F4EA"
+                                    HorizontalAlignment="Center" Margin="0,0,0,14">
+                                <TextBlock Text="📝" FontSize="26"
+                                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <TextBlock Text="Reviewer" FontSize="18" FontWeight="Bold"
+                                       FontFamily="Segoe UI" HorizontalAlignment="Center"
+                                       Foreground="{StaticResource TextPrimaryBrush}"/>
+                            <TextBlock TextWrapping="Wrap" TextAlignment="Center"
+                                       FontSize="12" FontFamily="Segoe UI"
+                                       Foreground="{StaticResource TextSecondaryBrush}"
+                                       Margin="0,6,0,0"
+                                       Text="Open audio from OneDrive, review the transcript, and export a Word document."/>
+                        </StackPanel>
+                    </Border>
+                </Button>
+            </Grid>
+
+        </StackPanel>
+
+        <!-- Footer -->
+        <TextBlock Grid.Row="1" Text="© 2026 DictationApp"
+                   FontSize="11" FontFamily="Segoe UI"
+                   Foreground="{StaticResource TextSecondaryBrush}"
+                   HorizontalAlignment="Center" Margin="0,0,0,16"/>
+    </Grid>
+</Window>
