@@ -48,7 +48,7 @@ DictationApp/
 
 - **Visual Studio 2022** (with .NET Desktop Workload) or **Rider**
 - **.NET 8 SDK** — https://dotnet.microsoft.com/download
-- **OpenAI API Key** — https://platform.openai.com (for Whisper transcription)
+- **Downloaded Whisper AI** - https://github.com/ggml-org/whisper.cpp
 - A working **microphone** for recording
 
 ---
@@ -71,11 +71,6 @@ dotnet restore
 F5  or  Ctrl+F5
 ```
 
-### 4. Configure Whisper API Key
-1. Sign in with a **Reviewer** account
-2. Click **⚙ Settings** in the top bar
-3. Paste your OpenAI API key (`sk-...`)
-4. Click **Save Settings**
 
 ---
 
